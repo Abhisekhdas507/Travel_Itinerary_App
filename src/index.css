@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+@font-face {
+    font-family: 'Mont';
+    src: url('../public/fonts/mont/Mont-ExtraLightDEMO.otf') format('opentype');
+    font-weight: 200;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Mont';
+    src: url('../public/fonts/mont/Mont-HeavyDEMO.otf') format('opentype');
+    font-weight: 800;
+    font-style: normal;
+  }
+
+  /* .bg-gradient-overlay { */
+    /* background-image: linear-gradient(to bottom, #666666 0%, #636363 3.42%, #000000 100%), url('./assets/image.png'); */
+    /* background-image: url('./assets/image.png'); */
+    /* background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  } */
+
+  @font-face {
+    font-family: 'MODERNIZ';
+    src: url('../public/fonts/moderniz/Moderniz.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  .bg-gradient-overlay {
+    background-image: linear-gradient(to bottom, rgba(102, 102, 102, 0.5) 0%, rgba(99, 99, 99, 0.5) 3.42%, rgba(0, 0, 0, 0.5) 100%), url('./assets/image.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
